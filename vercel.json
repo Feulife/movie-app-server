@@ -17,18 +17,10 @@
         "DELETE",
         "PATCH",
         "OPTIONS"
-      ]
+      ],
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
     }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "access-control-allow-origin",
-          "value": "*"
-        }
-      ]
-    }
-  ]
+  ]  
 }
