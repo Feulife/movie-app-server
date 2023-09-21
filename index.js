@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 // app.use(corsMiddleware)
 
 app.use(cors());
-// app.use(cors({ origin: ['*', 'https://moviemongo.vercel.app', 'https://vercel.com/feulife/moviemongo/a42a84aAbRoJsrcyXsNfCXdfhG6U', 'https://react-redux-movie-teal.vercel.app', 'https://vercel.com/feulife/react-redux-movie/FxmZzCSrPFyeqXc1yZ2d5YLcB5BR'] }));
+app.use(cors({ origin: ['*', 'https://moviemongo.vercel.app/', 'https://moviemongo-kmmyikl1l-feulife.vercel.app'] }));
 
 // app.use("/api/movies", movieRoutes);
 // app.use("/api/users", userRoutes);
